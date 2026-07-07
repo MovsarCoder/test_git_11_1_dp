@@ -1,0 +1,25 @@
+Первая команда чтобы изначально инициализировать гит в ваш проект
+>>> git init 
+
+Увидим >>> Initialized empty Git repository in /Users/mansur/Desktop/test_git_11_1_dp/.git/
+Снова если ввести >>> Reinitialized existing Git repository in /Users/mansur/Desktop/test_git_11_1_dp/.git/
+
+
+Нам нужно добавить файл в индекс git чтобы git отслеживал наш файл
+>>> git add main.py
+>>> git add .
+
+
+После того как мы добавили файлы в отслеживание
+нам нужно сделать снимок нашего проекта
+>>> git commit -m 'Мы пишем любое названием, прост не пишите его как я sdf'
+
+Теперь после этого сообщения мы отправляем наш проект которые отслеживает гит
+В САМОМ ПЕРВОМ ОТПРАВКЕ ФАЙЛОВ С ГИТА
+git branch -M main 
+git remote add origin https://github.com/MovsarCoder/test_git_11_1_dp.git
+ git push -u origin main
+
+
+В дальнейшем когда вы снова хотите отправить файлы с гит в гитхаб 
+>>> git push
