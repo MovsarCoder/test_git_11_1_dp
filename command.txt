@@ -23,3 +23,5 @@ git remote add origin https://github.com/MovsarCoder/test_git_11_1_dp.git
 
 В дальнейшем когда вы снова хотите отправить файлы с гит в гитхаб 
 >>> git push
+
+
