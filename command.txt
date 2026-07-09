@@ -25,6 +25,7 @@ git remote add origin https://github.com/MovsarCoder/test_git_11_1_dp.git
 >>> git push
 
 
+
 Команда чтобы к себе на компьютер закачать мой проект
 >>> git clone ссылка_которую_вы_копируете_на_репо
 
