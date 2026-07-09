@@ -55,3 +55,12 @@ git branch dp_11_1
 >>> git pull
 
 Тест
+
+
+
+
+Порядок команда
+git pull 
+git add .
+git commut -m 'sdf'
+git push
